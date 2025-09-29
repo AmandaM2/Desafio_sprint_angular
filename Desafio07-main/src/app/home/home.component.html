@@ -6,3 +6,10 @@
     <img src="ranger.png" alt="" />
 
 </div>
+
+<div *ngIf="showWelcome" class="welcome-container">
+    <h1>Bem-vindo(a)!</h1>
+    <p>Estamos felizes em ter você aqui. Aproveite sua experiência!</p>
+    <button class="btn" (click)="hideWelcome()">Começar</button>
+  </div>
+  

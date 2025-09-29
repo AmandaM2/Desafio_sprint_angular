@@ -1,3 +1,13 @@
+
 .dash{
     margin-top: 5% ;
     }
+
+.container img {
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;     /* centraliza vertical */
+    height: auto;           /* altura da tela inteira */
+ }
+      
+

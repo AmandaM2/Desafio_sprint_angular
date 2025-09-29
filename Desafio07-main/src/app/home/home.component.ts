@@ -10,7 +10,12 @@ import { MenuComponent } from "../menu/menu.component";
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+ // controla se a mensagem de boas-vindas está visível
+ showWelcome: boolean = true;
 
+ // função chamada ao clicar no botão
+ hideWelcome(): void {
+   this.showWelcome = false;
   
 
-}
+}}
