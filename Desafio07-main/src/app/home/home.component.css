@@ -1,34 +1,49 @@
-.imagem{
-margin-top: 10% ;
-display: flex;
-justify-content: center;
+.imagem {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
-.welcome-container {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 40px 60px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+.imagem img {
+  width: 70vw;
+  max-width: 900px;
+  opacity: 0.7;
 }
-  
-  .welcome-container h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .welcome-container p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    background-color:#0d6efd;
-  }
 
-  .btn:hover {
-    background-color: #0d6efd; /* muda o fundo */
-    color: white; /* muda a cor do texto */
-    transform: scale(1.05); /* efeito de leve aumento */
-  }
+.welcome-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 420px;
+  min-height: 140px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1.5px solid #bdbdbd;
+  border-radius: 6px;
+  box-shadow: none;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.welcome-header {
+  color: #555;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 12px 18px 8px 18px;
+  border-bottom: 1.5px solid #bdbdbd;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.welcome-body {
+  padding: 14px 18px 18px 18px;
+}
+
+.welcome-link {
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+}

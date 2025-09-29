@@ -7,7 +7,8 @@
     display: flex;
     justify-content: center; /* centraliza horizontal */
     align-items: center;     /* centraliza vertical */
-    height: auto;           /* altura da tela inteira */
+    height: auto;   
+    margin-top: 10vh;
  }
-      
+
 
